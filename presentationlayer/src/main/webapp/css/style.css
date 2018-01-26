@@ -1,0 +1,12 @@
+.row {
+    margin: 20px;
+}
+
+.jumbotron {
+    background-image: url("https://lonelyplanetimages.imgix.net/copilot/images/interest/food-and-drink.jpg?auto=compress&h=800");
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    background-size: cover ;
+
+}
