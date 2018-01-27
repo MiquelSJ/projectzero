@@ -73,34 +73,38 @@
 
 
             out.println("<br><div><h2>"+rest.getName()+"</h2><h4>"+rest.getAddress()+"</h4></div><br>"+"<div>\n" +
-                    "<div class=\"centrar\"><img src=\" "+rest.getImages()+"\" height=\"455px\" width=\"60%\"><br>"+
+                    "<div><img src=\" "+rest.getImages()+"\" height=\"475px\" width=\"65%\"><br>"+
                     "<br><table class=\"table table-hover\">" +
                     "<thead>" +
-                    "<tr>"+
+                    "<tr class=\"table-secondary\">"+
                     "<th scope=\"col\">Estil del restaurant</th>"+
                     "<th scope=\"col\">"+rest.getType()+"</th>"+
                     "</tr>"+
                     "</thead>"+
                     "<tbody>"+
-                    "<tr class=\"table-active\">"+
+                    "<tr class=\"table-info\">"+
                     "<th scope=\"row\">Puntuació ♥</th>"+
                     "<td>"+rest.getMitjana()+"</td>"+
                     "</tr>"+
-                    "<tr>"+
+                    "<tr class=\"table-secondary\">"+
                     "<th scope=\"row\">Telèfon</th>"+
                     "<td>"+rest.getTelephone()+"</td>"+
                     "</tr>"+
-                    "<tr class=\"table-active\">"+
+                    "<tr class=\"table-info\">"+
                     "<th scope=\"row\">Adreça</th>"+
                     "<td>"+rest.getAddress()+"</td>"+
                     "</tr>"+
-                    "<tr>"+
+                    "<tr class=\"table-secondary\">"+
                     "<th scope=\"row\">Web</th>"+
                     "<td><a target=\"_blank\" href=\""+rest.getWebsite()+"\">"+rest.getWebsite()+"</a></td>"+
                     "</tr>"+
                     "</tbody>"+
                     "</table>"+
-                    "</div>"
+                    "</div>"+
+                    "<br>"+
+                    "<br>"+
+                    "<br>"+
+                    "<br>"
             );
 
 
@@ -116,21 +120,21 @@
                         "<h2>Opinió del client</h2>"+
                         "<table class=\"table table-hover\">" +
                         "<thead>" +
-                        "<tr>"+
+                        "<tr class=\"table-info\">"+
                         "<th scope=\"col\">Id de l'usuari</th>"+
                         "<th scope=\"col\">"+com.getId()+"</th>"+
                         "</tr>"+
                         "</thead>"+
                         "<tbody>"+
-                        "<tr class=\"table-active\">"+
+                        "<tr class=\"table-secondary\">"+
                         "<th scope=\"row\">Usuari</th>"+
                         "<td>"+com.getUser()+"</td>"+
                         "</tr>"+
-                        "<tr>"+
+                        "<tr class=\"table-info\">"+
                         "<th scope=\"row\">Puntuació del restaurant</th>"+
                         "<td>"+com.getPuntu()+"</td>"+
                         "</tr>"+
-                        "<tr class=\"table-active\">"+
+                        "<tr class=\"table-secondary\">"+
                         "<th scope=\"row\">Comentari</th>"+
                         "<td>"+com.getComment()+"</td>"+
                         "</tr>"+

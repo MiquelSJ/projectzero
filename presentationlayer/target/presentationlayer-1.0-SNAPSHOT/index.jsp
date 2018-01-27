@@ -32,7 +32,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarColor01">
+    <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Inici <span class="sr-only">(current)</span></a>
@@ -61,7 +61,7 @@
         <div class="container">
             <h1 class="display-3">Demana el que et demani el cos</h1>
             <h2>Menjar a domicili a prop de tu</h2>
-            <p><a class="btn btn-primary btn-lg" href="test" role="button">Consultar més &raquo;</a></p>
+            <p><a class="btn btn-secondary btn-lg" href="test" role="button">Consultar més &raquo;</a></p>
         </div>
     </div>
 
@@ -85,7 +85,7 @@
                         "<p>" + std.getTelephone() + "</p>" +
                         "<p>" + std.getType() + "</p>" +
                         "<p>" + "<p>Puntuació ♥ " + std.getMitjana() + "</p>" +
-                        "<p>" + "<a target=\"_blank\"class=\"btn btn-secondary\" href=\"./restaurant?id="+std.getCode()+"\" role=\"button\"> Més informació</a>" + "</a>" + "</p>" +
+                        "<p>" + "<a target=\"_blank\"class=\"btn btn-info\" href=\"./restaurant?id="+std.getCode()+"\" role=\"button\"> Més informació</a>" + "</a>" + "</p>" +
                         "</div>" +
                         "</div>"
                 );
