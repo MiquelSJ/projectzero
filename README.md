@@ -1,19 +1,19 @@
 # projectzero
 
-Projecte per crear una pàgina web de l'estil TripAdvisor en llenguatge JAVA per el funcionament i HTML per pintar la WEB. 
-Aquest projecte agafa l'assignatura tant de "Web Applications Implementation" com de Seguretat i Alta Disponibilitat.
-El projecte està modultat, de manera que tot està ben distribuit.
-Al modul backend (core) hi ha tota la part interna de la web.
-Al modul frontend (presentationlayer) hi trobam el que ens "pinta" la web. El que es veu al final.
-Al modul apirest (restAPI) tenim l'accés als componenets rest a través de microframeworks.
+- Projecte per crear una pàgina web de l'estil TripAdvisor en llenguatge JAVA per el funcionament i HTML per pintar la WEB. 
+- Aquest projecte agafa l'assignatura tant de "Web Applications Implementation" com de Seguretat i Alta Disponibilitat.
+- El projecte està modultat, de manera que tot està ben distribuit.
+- Al modul backend (core) hi ha tota la part interna de la web.
+- Al modul frontend (presentationlayer) hi trobam el que ens "pinta" la web. El que es veu al final.
+- Al modul apirest (restAPI) tenim l'accés als componenets rest a través de microframeworks.
 
 ## Descarregar la "release", per compilar i fer correr usar:
-..* mvn compile
-..* mvn package
-..* mvn tomcat8:run
+- mvn compile
+- mvn package
+- mvn tomcat8:run
 
 ## Pàgina Web principal a: http://localhost:8080 
 ## Pàgina Web amb els restaurants (APIrest): http://localhost:8090/users  
 
-![img](https://imgur.com/xSjozkZ)
-![img](https://imgur.com/jtzVloJ)
+![img](https://i.imgur.com/xSjozkZ.jpg)
+![img](https://i.imgur.com/jtzVloJ.jpg)
