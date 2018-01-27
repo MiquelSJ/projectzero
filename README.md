@@ -20,3 +20,5 @@
 
 ## Pàgina principal
 ![img](https://i.imgur.com/jtzVloJ.jpg)
+
+### Miquel Servera Julià 2018
